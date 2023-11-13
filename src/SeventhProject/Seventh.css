@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.para-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.para-class h1{
+    margin: 30px 0;
+}
+
+.para-class .form-class{
+    display: flex;
+    align-items: center;
+
+}
+.form-class label, input ,button{
+    margin-right: 20px;
+}
+.form-class input{
+    padding: 10px 8px;
+    font: 18px;
+    background-color: transparent;
+    color: black;
+    width: 100px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.292);
+    border-radius: 2px;
+}
+.form-class button{
+    padding: 10px 8px;
+    width: 120px;
+    text-transform: uppercase;
+    color: black;
+    background: rgb(10, 144, 239);
+    border: none;
+    outline: none;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.graph p{
+    margin: 40px auto;
+    font-size: 18px;
+    color: rgb(33, 33, 33);
+     letter-spacing:1px;
+}

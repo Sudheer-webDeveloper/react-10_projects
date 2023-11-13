@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+.slider-class{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border: 3px solid red;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin: auto;
+   
+}
+
+
+.slider .main-button button{
+    color: white;
+    background:rgb(0, 0, 0);
+    padding: 3px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transform: translateY(300px);
+    margin: 0 30px;
+    
+}
+.mains-container{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    
+}
+
+.img-class{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid green;
+    position: relative;
+    width:800px;
+    height: 600px;
+
+}
+.img-class section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:800px;
+    height: 600px;
+    opacity: 0;
+}
+section.activeSlide{
+    opacity: 1;
+    transform: translateX(0);
+
+
+}
+section.lastSlide{
+    transform: translateX(-100%);
+}
+section.nextSlide{
+    transform: translateX(100%);
+}
+
+.img-class img{
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.img-class h2{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(235, 105, 18);
+}
+.img-class h3{
+    margin-top: 15px;
+}
+.img-class p{
+    line-height: 30px;
+    text-align: center;
+}
+.quotes{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(235, 105, 18);
+    text-align: center;
+    
+}

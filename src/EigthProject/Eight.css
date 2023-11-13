@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+.main-container{
+    background: rgb(81, 81, 81);
+    color: white;
+}
+.todo{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 35px 50px;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.378); */
+    border-radius: 6px;
+    background: black;
+}
+.todo h1{
+    margin: 20px auto;
+}
+.input-class{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.input-class input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.397);
+    border-radius: 5px;
+    padding: 10px;
+}
+.input-class button{
+    border: none;
+    outline: none;
+    background: rgb(26, 200, 243);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    width: 130px;
+    padding: 10px;
+    cursor: pointer;
+}
+.firstForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.class-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn button{
+    padding: 5px;
+    font: 300;
+    font-size: 16px;
+    color: red;
+    margin:30px 0 0 0;
+    background: transparent;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.list-class{
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.success{
+    background:rgba(40, 245, 40, 0.675);
+    color: white;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 800px;
+    border-radius: 5px;
+  
+}
+.danger{
+    background: rgb(247, 5, 5);
+    color: white;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 800px;
+    border-radius: 5px;
+}
+.edited{
+    background: rgb(246, 176, 36);
+    color: rgb(0, 0, 0);
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.list-component{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.main-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding: 20px 15px 0 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.273);
+}
+.list p{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-spacing: 2px;
+
+}
+.small-1, .small-2{
+    font-size: 20px;
+    margin: 0 10px 16px 0;
+}
+.small-1{
+    color: rgb(32, 201, 32);
+    cursor: pointer;
+}
+.small-2{
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+}
